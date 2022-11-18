@@ -50,5 +50,4 @@ public class ListenerExam implements ServletContextListener, ServletContextAttri
     public void contextInitialized(ServletContextEvent sce)  { 
     	sce.getServletContext().log("ServletContext 시작 !");
     }
-	
 }
